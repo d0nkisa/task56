@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>HTML, CSS and SASS Boilerplate</title>
-    <meta
-      name="description"
-      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-    />
+    <meta name="description" content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
+    <style>
+        .container {
+            display: flex;
+        }
+        
+        .toolbar {
+            height: 80px;
+            min-width: 100%;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="toolbar"></nav>
+        <main class="main">
+            <div class="main">
+                <div class="emoji mb-6">💣🤯💥</div>
+                <button class="button">Boom?</button>
+            </div>
+        </main>
     </div>
-  </body>
+</body>
+
 </html>
